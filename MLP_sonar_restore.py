@@ -48,8 +48,6 @@ n_hidden_3 = 60
 n_hidden_4 = 60
 
 x = tf.placeholder(tf.float32, shape=[None, n_dim])
-#w = tf.Variable(tf.random.normal(shape = (n_dim, n_class), mean=0, stddev=1))
-#b = tf.Variable(tf.random.normal(shape = (n_class), mean=0, stddev=1))
 y = tf.placeholder(tf.float32, shape=[None, n_class])
 
 weights = {
